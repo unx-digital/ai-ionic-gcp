@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Google Cloud Vision
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-fab vertical="bottom" horizontal="center" slot="fixed">
+    <ion-fab-button (click)="takePhoto(false)">
+      <ion-icon name="camera"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+  <ion-card *ngIf="image">
+    <img [src]="image" />
+    <ion-card-content>
+      <ion-list>
+        <ion-list-header>Labels</ion-list-header>
+
+        <ion-item *ngFor="let label of results.responses[0].labelAnnotations">
+          <ion-label>{{label.description}}</ion-label>
+          <ion-note slot="end" color="primary">{{label.score}}</ion-note>
+        </ion-item>
+
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
