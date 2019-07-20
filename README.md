@@ -2,7 +2,7 @@
 
 [![N|Solid](https://res.cloudinary.com/dlvaangxn/image/upload/c_scale,w_150/v1563630297/unx-logo.png)](https://www.unxdigital.com/)
 
-![CircleCI](https://circleci.com/gh/google/wikiloop-battlefield/tree/master.svg?style=svg) ![GitHub watchers](https://img.shields.io/github/watchers/unx-digital/ai-ionic-gcp.svg?label=Watch&style=social) ![GitHub forkers](https://img.shields.io/github/watchers/unx-digital/ai-ionic-gcp.svg?label=Fork&style=social) ![GitHub starers](https://img.shields.io/github/watchers/unx-digital/ai-ionic-gcp.svg?label=Star&style=social)
+![CircleCI](https://circleci.com/gh/google/wikiloop-battlefield/tree/master.svg?style=svg)
 
 We're combining Google's Cloud Vision API with Ionic to create a native mobile app that can automatically label and tag images.
 We are inspired by the application created by Jin Yang, in Silicon Valley show.
