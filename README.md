@@ -35,7 +35,7 @@ ionic serve
 #### Next Steps
 There are a huge amount of potential for mobile app developers with the Cloud Vision API. There are many business applications that can be improved with AI vision analysis.
 
-##### License
+
 ```
 MIT License
 
